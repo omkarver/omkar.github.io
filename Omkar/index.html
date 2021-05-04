@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SNAK</title>
+	<meta name= viewport content= "width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/stylefoot.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body>
+
+	<header>
+		<nav>
+			<div class="row clearfix">
+				<img src="images/studylogo.png" class="logo">
+
+				<ul class="main-nav animated slideInDown" id="check-class">
+					<li><a href="#">HOME</a></li>
+					<li><a href="#">MCQs</a></li>
+					<li><a href="#">LEARN MORE </a></li>
+					<li><a href="log-sign.html">Sign in</a></li>
+				</ul>
+				<a href="#" class="mobile-icon"  onclick="slideshow()"> <i class="fa fa-bars"></i> </a>
+			</div>
+		</nav>
+
+		<div class="main-content-header">
+			<h1> ***** <span class="colorchange">STUDY TIME </span> *****.<br>
+				BOOST YOUR SKILLS TEST YOURSELF HERE. </h1>
+			<a href="#" class="btn btn-full">CLICK TO ASK QUESTION </a>
+			<a href="#" class="btn btn-nav"> MORE</a>
+		</div>
+	</header>
+
+	<script type="text/javascript">
+		
+		function slideshow(){
+			 var x = document.getElementById('check-class');
+			 if(x.style.display === "none"){
+			 	x.style.display="block";
+			 }else{
+			 	x.style.display="none";
+			 }
+		}	
+
+	</script>
+
+
+	<footer class="footer">
+  	 <div class="container">
+  	 	<div class="row1">
+  	 		<div class="footer-col">
+  	 			<h4>Copyright &copy Omkar & Team</h4>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>Quick links</h4>
+  	 			<ul>
+  	 				<li><a href="#">Landing Page</a></li>
+  	 				<li><a href="#">Home Page</a></li>
+  	 				<li><a href="#">About Us</a></li>
+  	 				<li><a href="#">Take Test</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>follow us</h4>
+  	 			<div class="social-links">
+  	 				<a href="#"><i class="fab fa-facebook-f"></i></a>
+  	 				<a href="#"><i class="fab fa-twitter"></i></a>
+  	 				<a href="#"><i class="fab fa-instagram"></i></a>
+  	 				<a href="#"><i class="fab fa-linkedin-in"></i></a>
+  	 			</div>
+  	 		</div>
+  	 	</div>
+  	 </div>
+  </footer>
+
+</body>
+</html>
